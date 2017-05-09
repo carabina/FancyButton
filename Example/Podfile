@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FancyButton_Example' do
+  pod 'FancyButton', :path => '../'
+
+  target 'FancyButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
