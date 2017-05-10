@@ -1,0 +1,1131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1269C80FF799ABDF1D0BB6544E1B1A4C /* NFViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BB35259217FA60AB0E6492E4634041 /* NFViewUtils.m */; };
+		16C57AC90DA9041495EC4AC86374C22F /* UIImage+NFAllocInit_RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 242F1B4C29B3246DF74C705520198453 /* UIImage+NFAllocInit_RoundedCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		175A2B01B6D15DED4EA00391E5CBD7C8 /* NSArray+NFAllocInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 579093B08396C4F07D4BF63D829DC415 /* NSArray+NFAllocInit.m */; };
+		1BE540688BA89D1BEEF68F9921F795F0 /* NFDeviceUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C05CE5FE93ED87518379097052B52ADD /* NFDeviceUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D310B3F5E0182ECD18F551868CF59AC /* UIImage+NFAllocInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 69983F47A1F122BACB96A4658C3FBF6B /* UIImage+NFAllocInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2172D4BF2C2B302CC0F7041BE851408E /* UIView+NFAllocInit_FrameAdjustments.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4258AE55FAB097468C734876FFA4DB /* UIView+NFAllocInit_FrameAdjustments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C4058B86C67EEFA75B4C6D636D94E71 /* UIView+NFAllocInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C213B49723B13C80A32CC3F65966B2A /* UIView+NFAllocInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CDF97B2CDB290F3B817567A04129BD7 /* UIView+NFAllocInit.m in Sources */ = {isa = PBXBuildFile; fileRef = B8656FE0A56CD35A0C3B7A3E6B47F146 /* UIView+NFAllocInit.m */; };
+		2EB2AD4F08AD142CEADD5488D388873C /* NFNetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC150E20B082684705F5ED44CD86C6C /* NFNetworkActivityIndicator.m */; };
+		309529203D82C7A82682C1E0110C0AEC /* UIImage+NFAllocInit_Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8A253E77665CE39AECA26346BDE28F /* UIImage+NFAllocInit_Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		339DE566EA9633B8AFE9A2A8C685CC17 /* NFAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B78A7D2F9A9AE0928BFC7A8256DEAEEB /* NFAudioPlayer.m */; };
+		359672D8AF49B06EC046C34A8CE7C0A0 /* UIView+NFAllocInit_FrameAdjustments.m in Sources */ = {isa = PBXBuildFile; fileRef = 0196B0F5693093256BB906AD0567916B /* UIView+NFAllocInit_FrameAdjustments.m */; };
+		37FD0E22BE1B9616047577C6A915C9FF /* NSDate+NFAllocInit.m in Sources */ = {isa = PBXBuildFile; fileRef = BACF370273A77B0F7438199BA0123A3F /* NSDate+NFAllocInit.m */; };
+		38A3644F889787B2DF6E5B94B7075A41 /* NFDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A0BF7FF3D6FEDE6C3837BC0FB1E58 /* NFDateUtils.m */; };
+		38E29D3D1C4C37FE31C06128B5FDC875 /* Pods-FancyButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D4249FEF3D21159CA3727DD74A0C4B /* Pods-FancyButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1B985ECFEAC4EB7A1CD691A1E10D34 /* Pods-FancyButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0FBBE7638B47BAF2716C1A98CE44B9 /* Pods-FancyButton_Example-dummy.m */; };
+		42754BA580E65D072B5EC8EC306484DF /* NFDateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 102A3BFEC915AB995B83B200FF05EBAC /* NFDateUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C552A081AE72F4050B4F733E7E2AF7C /* NSError+NFAllocInit.h in Headers */ = {isa = PBXBuildFile; fileRef = FB11AF4F8B7C76336308B80FB095DE2E /* NSError+NFAllocInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51ED93413D854491CCB2F054722A1E53 /* UIColor+NFAllocInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A190965538B22E34FDA4DC880B9FCC3 /* UIColor+NFAllocInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		553F50D1EEC709E1E3DC96DE583193F5 /* UIDevice+NFAllocInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC8660E56F151983D87097611F87B63 /* UIDevice+NFAllocInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CB3A8C9F9EF21DFD37FF5B2610904E3 /* NFAllocInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C7ECD979CE56445EEF977EE277AB18 /* NFAllocInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D98A8ED337AF4E09D39C10839B247C2 /* NSError+NFAllocInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E871A635BA9AFE058E3E42ADE680175 /* NSError+NFAllocInit.m */; };
+		643E3C82BE690071FBD38C92D70C6E78 /* NFTimerTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FEBA5596E09271583F8D040E810E5E /* NFTimerTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69721FCBD8B5E68C5FF49184BF84F920 /* NSString+NFAllocInit.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9DC6E87022EC09AEF270C99E24F0A8 /* NSString+NFAllocInit.m */; };
+		6AF9249ECFF5612ECC5532545F83323F /* FancyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A34C754D1EFF05D7C4A3773E62063D3 /* FancyButton-dummy.m */; };
+		6E8CA42C957068E6E4196772E0EDBBF9 /* NFAllocInit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF335EC2880E6C2EF2DD04AF9CE4F3 /* NFAllocInit-dummy.m */; };
+		71DC38AAE2DDA2A120847CCE1912E2BE /* NSDate+NFAllocInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D622D702CBD3FABAC94E492E79D9D6 /* NSDate+NFAllocInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		745B32F50BE6E8940D0CA4A410F2E17D /* NFDelegateSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CE14A50E7DB0258B58E2CF735BA36FE4 /* NFDelegateSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A8A17C3BD6009CFA658001DB511DA4E /* NSArray+NFAllocInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 18675F29E0EDF58E3919EE88D877C6FB /* NSArray+NFAllocInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85450C228036FE69E471E1818E496509 /* FancyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B40CF54A632BE8EC9D007734A29FF5A /* FancyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		896DB61F2862936D86F3EC40CDDE5D80 /* NFProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF6AFB8E9C471F8CB9241678834A584 /* NFProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E37CCA66627FE433449D27D602C7A42 /* UIDevice+NFAllocInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E67EA00EF1E3917C5A12D1241FEA9 /* UIDevice+NFAllocInit.m */; };
+		92ED9AD4FB6E790FDAE1D7F467624414 /* NFResourceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 519C59584313AB505E705F2FFF45754C /* NFResourceUtils.m */; };
+		950B47C073BFEC8453A38D6E40BD5D2B /* NSObject+NFAllocInit_Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = A924EA2AD997D74FAB0D6CA9EF4BE7E7 /* NSObject+NFAllocInit_Properties.m */; };
+		9641E6B131B13D311E77FF74860939F4 /* UIImage+NFAllocInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E39547E5CA123AD6E9D89AABB44C23F /* UIImage+NFAllocInit.m */; };
+		9A5C4AB18C9123749C5D49B1CB985667 /* NFAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8C832AA19ED7695C313272427C7893 /* NFAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A9AF7241468C30D6C3FEC9915E6C835 /* NFDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 38AC6649D01F1A1101E15BFBD17018E2 /* NFDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D98FF111C1EFDF80D312F481B6F6824 /* NSObject+NFAllocInit_Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A30E2956B86824ECF49382A04B7BF35 /* NSObject+NFAllocInit_Properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A058BB1A38D94AE6BFE86D3AD13306EF /* NFDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B378C5194FFBB343521AD76670E93E14 /* NFDeviceUtils.m */; };
+		A2ABC772FAA76532C1CDABF007E9E859 /* Pods-FancyButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DC9C8EDA9E8C2B718123FC457119E5 /* Pods-FancyButton_Tests-dummy.m */; };
+		A550AB6BB95B391AA439EA1C99103C6C /* NSString+NFAllocInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A729286596E5CE8D1503B9F3D4E93F2 /* NSString+NFAllocInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A56E8AD1A949343E5D9D6592A15414A0 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFD2E148AB0F3CC8CF9B06EFFBA934 /* FancyButton.swift */; };
+		AA151EAEE8A6E2202DD48066E963ED8D /* NFViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F15AF2AD55C72D49688E6FA482D1D6B /* NFViewUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB30D5EFAA039B73C8F9996B6405415F /* UIImage+NFAllocInit_Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C825582557E946E73B1696FF9CBF01 /* UIImage+NFAllocInit_Resize.m */; };
+		B5363FE73AACF9341469D48EBB1900F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E6CAC8FD81E01CD90B289F76E9FE91 /* Foundation.framework */; };
+		B635B66C130B6F962B73D4911F26FFCB /* UIImage+NFAllocInit_Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED6E06921F8429229DFBFCA516CE5F /* UIImage+NFAllocInit_Alpha.m */; };
+		B794784D054D9583CCBB96CE0D9A10D9 /* UIImage+NFAllocInit_RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = F952D026FE597AA0CF41599D8EDFF037 /* UIImage+NFAllocInit_RoundedCorner.m */; };
+		BEC477D289048BE34DA355FDD6DEF81C /* NSData+NFAllocInit.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EE79813378009B5DDD81F955A15B75 /* NSData+NFAllocInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFA3A8C5D1210C28780C42247FE1CCBE /* UIImage+NFAllocInit_Orientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B01CED3F2294EE09DAF41769916B380 /* UIImage+NFAllocInit_Orientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C519F8B2A9B11D239A2C4F06AE5486C0 /* NFDelegateSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C3243AC201F8A0AD0FAF3DEE04A321E5 /* NFDelegateSet.m */; };
+		C9254906438B9C17BB0889D66B650A69 /* NFTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A90A02FF4B0FFEB3926FE33B894F4 /* NFTimerTarget.m */; };
+		CA3E86A11B5A97C143B40B091D128CB4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E42C1A09CB48F2E11577859C6562DD /* QuartzCore.framework */; };
+		CAC79953C8BF6868447B6F9486E7C1F7 /* UIImage+NFAllocInit_Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 920F8C7180235CFC93EFCA9C76622C50 /* UIImage+NFAllocInit_Orientation.m */; };
+		CE2C11FA9FE0BF25FF4478D4015AC8C8 /* NSData+NFAllocInit.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD52A5B8B8139B96AB9A445323CDC28 /* NSData+NFAllocInit.m */; };
+		D8B13335832EEE1EDFCDDC35F49B5A56 /* Pods-FancyButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E666AD3CF2BE8417175D68AE538E6C3C /* Pods-FancyButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAF656120308F8E2481BEA61283574C8 /* UIColor+NFAllocInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EAF8E882DC8C8680C7DC76AFD46F4E /* UIColor+NFAllocInit.m */; };
+		DCD3EA4B23063083D1E681A126C477C1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14920B36FA3A267C178059FDD4077B31 /* AudioToolbox.framework */; };
+		DE486E835CC7702880C804FC9ED3A13B /* UIImage+NFAllocInit_Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F197B3E149E59FEBA5021BE394393A /* UIImage+NFAllocInit_Resize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0090B088E1A11A95A5CC98523A5C7A6 /* NFAllocInit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8668F8BF4F24986F42E2B7C9F17137E5 /* NFAllocInit.framework */; };
+		E33CD535A12CD915C3D3FBA54613B98A /* NFAllocInit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD385E4ACF2638E32EDB3CAC4C1A9F4C /* NFAllocInit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A7655870C6176AD2A8A041810686E8 /* NFProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D682460D7163F9B1C029DF7847922742 /* NFProperty.m */; };
+		E704EF4825E24FC390362E23E8E1B2DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E6CAC8FD81E01CD90B289F76E9FE91 /* Foundation.framework */; };
+		E83A52B0C8423FAD2BC6DD14F2883C92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E6CAC8FD81E01CD90B289F76E9FE91 /* Foundation.framework */; };
+		EF7B96E2E5077BC223AF92878726ADEE /* NFNetworkActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 235816D81E220A23A328056E4FBAE2FD /* NFNetworkActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0A80466AEDF0D7E94C7154CFF96694A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1331903568F5C458518816F93128169E /* AVFoundation.framework */; };
+		F577408D62C3ACB60B8826BFF06394F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E6CAC8FD81E01CD90B289F76E9FE91 /* Foundation.framework */; };
+		FFD11965C7E4A8077474684C9F16FD35 /* NFResourceUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CB89DC32C2AFE72E99A993E9525DA669 /* NFResourceUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2917AF1AECCDF1ED3907A43970573590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C91A7B6264BD727682EDCD812DC581;
+			remoteInfo = NFAllocInit;
+		};
+		5672D5B57C34E1D478225490093C068C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B8529041934C4A50F0E6C613647C2D2;
+			remoteInfo = FancyButton;
+		};
+		EDE288F00EC66071646C535B613CDD3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C91A7B6264BD727682EDCD812DC581;
+			remoteInfo = NFAllocInit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0196B0F5693093256BB906AD0567916B /* UIView+NFAllocInit_FrameAdjustments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+NFAllocInit_FrameAdjustments.m"; path = "NFAllocInit/Categories/UIView+NFAllocInit_FrameAdjustments.m"; sourceTree = "<group>"; };
+		01C7ECD979CE56445EEF977EE277AB18 /* NFAllocInit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFAllocInit.h; path = NFAllocInit/NFAllocInit.h; sourceTree = "<group>"; };
+		045E62F2969F9714C7E17953A104F0E6 /* Pods-FancyButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		054158E9DF7EF7C60E167F18BADE9EB7 /* FancyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FancyButton.modulemap; sourceTree = "<group>"; };
+		07FFD2E148AB0F3CC8CF9B06EFFBA934 /* FancyButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		0D92929CB7834FEC9AD6B56428AC0F27 /* Pods-FancyButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FancyButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		0F3EE63525E61DAF39034401B8BE967A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102A3BFEC915AB995B83B200FF05EBAC /* NFDateUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFDateUtils.h; path = NFAllocInit/NFDateUtils.h; sourceTree = "<group>"; };
+		1137AE130A73DCC85C77EE5CD9E56926 /* NFAllocInit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NFAllocInit.framework; path = NFAllocInit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DC9C8EDA9E8C2B718123FC457119E5 /* Pods-FancyButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FancyButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		1331903568F5C458518816F93128169E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		14920B36FA3A267C178059FDD4077B31 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		16784DCA85C36142AA285487E028F78B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18675F29E0EDF58E3919EE88D877C6FB /* NSArray+NFAllocInit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+NFAllocInit.h"; path = "NFAllocInit/Categories/NSArray+NFAllocInit.h"; sourceTree = "<group>"; };
+		212AA2C4FC567B3D01656E2CB8004F47 /* NFAllocInit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NFAllocInit.modulemap; sourceTree = "<group>"; };
+		235816D81E220A23A328056E4FBAE2FD /* NFNetworkActivityIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFNetworkActivityIndicator.h; path = NFAllocInit/NFNetworkActivityIndicator.h; sourceTree = "<group>"; };
+		242F1B4C29B3246DF74C705520198453 /* UIImage+NFAllocInit_RoundedCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+NFAllocInit_RoundedCorner.h"; path = "NFAllocInit/Categories/UIImage+NFAllocInit_RoundedCorner.h"; sourceTree = "<group>"; };
+		2A30E2956B86824ECF49382A04B7BF35 /* NSObject+NFAllocInit_Properties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+NFAllocInit_Properties.h"; path = "NFAllocInit/Categories/NSObject+NFAllocInit_Properties.h"; sourceTree = "<group>"; };
+		2E1A0BF7FF3D6FEDE6C3837BC0FB1E58 /* NFDateUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFDateUtils.m; path = NFAllocInit/NFDateUtils.m; sourceTree = "<group>"; };
+		2E4258AE55FAB097468C734876FFA4DB /* UIView+NFAllocInit_FrameAdjustments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NFAllocInit_FrameAdjustments.h"; path = "NFAllocInit/Categories/UIView+NFAllocInit_FrameAdjustments.h"; sourceTree = "<group>"; };
+		2E871A635BA9AFE058E3E42ADE680175 /* NSError+NFAllocInit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+NFAllocInit.m"; path = "NFAllocInit/Categories/NSError+NFAllocInit.m"; sourceTree = "<group>"; };
+		31BB35259217FA60AB0E6492E4634041 /* NFViewUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFViewUtils.m; path = NFAllocInit/NFViewUtils.m; sourceTree = "<group>"; };
+		360770D985B444F6C1F910D413A9ED81 /* Pods-FancyButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3881E2B64645F71433D45B9E71DDCF0F /* FancyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FancyButton.framework; path = FancyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AC6649D01F1A1101E15BFBD17018E2 /* NFDebugging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFDebugging.h; path = NFAllocInit/NFDebugging.h; sourceTree = "<group>"; };
+		3C721CF1667D79649753F749108BFA10 /* NFAllocInit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFAllocInit.xcconfig; sourceTree = "<group>"; };
+		3E39547E5CA123AD6E9D89AABB44C23F /* UIImage+NFAllocInit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+NFAllocInit.m"; path = "NFAllocInit/Categories/UIImage+NFAllocInit.m"; sourceTree = "<group>"; };
+		3FB1138D9F1A87768801F06EDBE87201 /* Pods-FancyButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FancyButton_Example-resources.sh"; sourceTree = "<group>"; };
+		43E6CAC8FD81E01CD90B289F76E9FE91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48103D7DADF0FF5A2FD42F5ACBE94165 /* NFAllocInit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFAllocInit-prefix.pch"; sourceTree = "<group>"; };
+		4AC150E20B082684705F5ED44CD86C6C /* NFNetworkActivityIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFNetworkActivityIndicator.m; path = NFAllocInit/NFNetworkActivityIndicator.m; sourceTree = "<group>"; };
+		4B40CF54A632BE8EC9D007734A29FF5A /* FancyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FancyButton-umbrella.h"; sourceTree = "<group>"; };
+		4BE8BE00A7C7F367995319E678CB5C15 /* Pods-FancyButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FancyButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4F15AF2AD55C72D49688E6FA482D1D6B /* NFViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFViewUtils.h; path = NFAllocInit/NFViewUtils.h; sourceTree = "<group>"; };
+		519C59584313AB505E705F2FFF45754C /* NFResourceUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFResourceUtils.m; path = NFAllocInit/NFResourceUtils.m; sourceTree = "<group>"; };
+		53E42C1A09CB48F2E11577859C6562DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		579093B08396C4F07D4BF63D829DC415 /* NSArray+NFAllocInit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+NFAllocInit.m"; path = "NFAllocInit/Categories/NSArray+NFAllocInit.m"; sourceTree = "<group>"; };
+		58D622D702CBD3FABAC94E492E79D9D6 /* NSDate+NFAllocInit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+NFAllocInit.h"; path = "NFAllocInit/Categories/NSDate+NFAllocInit.h"; sourceTree = "<group>"; };
+		59C825582557E946E73B1696FF9CBF01 /* UIImage+NFAllocInit_Resize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+NFAllocInit_Resize.m"; path = "NFAllocInit/Categories/UIImage+NFAllocInit_Resize.m"; sourceTree = "<group>"; };
+		5A0FA7C2A525356138DAE43C852A2441 /* Pods-FancyButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A0FBBE7638B47BAF2716C1A98CE44B9 /* Pods-FancyButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FancyButton_Example-dummy.m"; sourceTree = "<group>"; };
+		5C213B49723B13C80A32CC3F65966B2A /* UIView+NFAllocInit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NFAllocInit.h"; path = "NFAllocInit/Categories/UIView+NFAllocInit.h"; sourceTree = "<group>"; };
+		61FEB0D0F47DDA2C501154A547D4B0F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69983F47A1F122BACB96A4658C3FBF6B /* UIImage+NFAllocInit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+NFAllocInit.h"; path = "NFAllocInit/Categories/UIImage+NFAllocInit.h"; sourceTree = "<group>"; };
+		6B01CED3F2294EE09DAF41769916B380 /* UIImage+NFAllocInit_Orientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+NFAllocInit_Orientation.h"; path = "NFAllocInit/Categories/UIImage+NFAllocInit_Orientation.h"; sourceTree = "<group>"; };
+		6ECF335EC2880E6C2EF2DD04AF9CE4F3 /* NFAllocInit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NFAllocInit-dummy.m"; sourceTree = "<group>"; };
+		7A729286596E5CE8D1503B9F3D4E93F2 /* NSString+NFAllocInit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+NFAllocInit.h"; path = "NFAllocInit/Categories/NSString+NFAllocInit.h"; sourceTree = "<group>"; };
+		7AC8660E56F151983D87097611F87B63 /* UIDevice+NFAllocInit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+NFAllocInit.h"; path = "NFAllocInit/Categories/UIDevice+NFAllocInit.h"; sourceTree = "<group>"; };
+		7B0571691113822C6EEE5837E0AE40EA /* FancyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FancyButton-prefix.pch"; sourceTree = "<group>"; };
+		82ED6E06921F8429229DFBFCA516CE5F /* UIImage+NFAllocInit_Alpha.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+NFAllocInit_Alpha.m"; path = "NFAllocInit/Categories/UIImage+NFAllocInit_Alpha.m"; sourceTree = "<group>"; };
+		8668F8BF4F24986F42E2B7C9F17137E5 /* NFAllocInit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFAllocInit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A190965538B22E34FDA4DC880B9FCC3 /* UIColor+NFAllocInit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+NFAllocInit.h"; path = "NFAllocInit/Categories/UIColor+NFAllocInit.h"; sourceTree = "<group>"; };
+		8A34C754D1EFF05D7C4A3773E62063D3 /* FancyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FancyButton-dummy.m"; sourceTree = "<group>"; };
+		8C2E67EA00EF1E3917C5A12D1241FEA9 /* UIDevice+NFAllocInit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+NFAllocInit.m"; path = "NFAllocInit/Categories/UIDevice+NFAllocInit.m"; sourceTree = "<group>"; };
+		8D864233E3000254A8AFBB315FF26F6B /* Pods-FancyButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FancyButton_Example.modulemap"; sourceTree = "<group>"; };
+		920F8C7180235CFC93EFCA9C76622C50 /* UIImage+NFAllocInit_Orientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+NFAllocInit_Orientation.m"; path = "NFAllocInit/Categories/UIImage+NFAllocInit_Orientation.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98EAF8E882DC8C8680C7DC76AFD46F4E /* UIColor+NFAllocInit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+NFAllocInit.m"; path = "NFAllocInit/Categories/UIColor+NFAllocInit.m"; sourceTree = "<group>"; };
+		9F2DE78F8072498107DCDEAF3D1A352B /* Pods_FancyButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FancyButton_Tests.framework; path = "Pods-FancyButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59A90A02FF4B0FFEB3926FE33B894F4 /* NFTimerTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFTimerTarget.m; path = NFAllocInit/NFTimerTarget.m; sourceTree = "<group>"; };
+		A91A03C8EB962592FDDA595291F63F5A /* Pods_FancyButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FancyButton_Example.framework; path = "Pods-FancyButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A924EA2AD997D74FAB0D6CA9EF4BE7E7 /* NSObject+NFAllocInit_Properties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+NFAllocInit_Properties.m"; path = "NFAllocInit/Categories/NSObject+NFAllocInit_Properties.m"; sourceTree = "<group>"; };
+		AE6496EF2B8A13BA3855633706A7828F /* FancyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FancyButton.xcconfig; sourceTree = "<group>"; };
+		B0DA2406F2FDFE39FF6970F2516AE4C3 /* Pods-FancyButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FancyButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B378C5194FFBB343521AD76670E93E14 /* NFDeviceUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFDeviceUtils.m; path = NFAllocInit/NFDeviceUtils.m; sourceTree = "<group>"; };
+		B78A7D2F9A9AE0928BFC7A8256DEAEEB /* NFAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFAudioPlayer.m; path = NFAllocInit/NFAudioPlayer.m; sourceTree = "<group>"; };
+		B7F197B3E149E59FEBA5021BE394393A /* UIImage+NFAllocInit_Resize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+NFAllocInit_Resize.h"; path = "NFAllocInit/Categories/UIImage+NFAllocInit_Resize.h"; sourceTree = "<group>"; };
+		B8656FE0A56CD35A0C3B7A3E6B47F146 /* UIView+NFAllocInit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+NFAllocInit.m"; path = "NFAllocInit/Categories/UIView+NFAllocInit.m"; sourceTree = "<group>"; };
+		BACF370273A77B0F7438199BA0123A3F /* NSDate+NFAllocInit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+NFAllocInit.m"; path = "NFAllocInit/Categories/NSDate+NFAllocInit.m"; sourceTree = "<group>"; };
+		BD385E4ACF2638E32EDB3CAC4C1A9F4C /* NFAllocInit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFAllocInit-umbrella.h"; sourceTree = "<group>"; };
+		C05CE5FE93ED87518379097052B52ADD /* NFDeviceUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFDeviceUtils.h; path = NFAllocInit/NFDeviceUtils.h; sourceTree = "<group>"; };
+		C0BEACCE6621D55894FFA0E46E332277 /* Pods-FancyButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FancyButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0F2915A2F72B23D4C27CE830B3E3F14 /* Pods-FancyButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FancyButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C13E63F0D41390C17BC9138FC00449A8 /* Pods-FancyButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C3243AC201F8A0AD0FAF3DEE04A321E5 /* NFDelegateSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFDelegateSet.m; path = NFAllocInit/NFDelegateSet.m; sourceTree = "<group>"; };
+		CB89DC32C2AFE72E99A993E9525DA669 /* NFResourceUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFResourceUtils.h; path = NFAllocInit/NFResourceUtils.h; sourceTree = "<group>"; };
+		CE14A50E7DB0258B58E2CF735BA36FE4 /* NFDelegateSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFDelegateSet.h; path = NFAllocInit/NFDelegateSet.h; sourceTree = "<group>"; };
+		D401BC031FCCE190486E9750CF4406F5 /* Pods-FancyButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FancyButton_Tests.modulemap"; sourceTree = "<group>"; };
+		D682460D7163F9B1C029DF7847922742 /* NFProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFProperty.m; path = NFAllocInit/NFProperty.m; sourceTree = "<group>"; };
+		D6C7BC6380D5E138DF038220CD9011F4 /* Pods-FancyButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FancyButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D795D997CF3A5D7266E99CEDDB066BCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB77A2E6A33BF3EE2A2BA599E23F00AB /* Pods-FancyButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FancyButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD8A253E77665CE39AECA26346BDE28F /* UIImage+NFAllocInit_Alpha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+NFAllocInit_Alpha.h"; path = "NFAllocInit/Categories/UIImage+NFAllocInit_Alpha.h"; sourceTree = "<group>"; };
+		E1EE79813378009B5DDD81F955A15B75 /* NSData+NFAllocInit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+NFAllocInit.h"; path = "NFAllocInit/Categories/NSData+NFAllocInit.h"; sourceTree = "<group>"; };
+		E666AD3CF2BE8417175D68AE538E6C3C /* Pods-FancyButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FancyButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ECD52A5B8B8139B96AB9A445323CDC28 /* NSData+NFAllocInit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+NFAllocInit.m"; path = "NFAllocInit/Categories/NSData+NFAllocInit.m"; sourceTree = "<group>"; };
+		EE8C832AA19ED7695C313272427C7893 /* NFAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFAudioPlayer.h; path = NFAllocInit/NFAudioPlayer.h; sourceTree = "<group>"; };
+		EF9DC6E87022EC09AEF270C99E24F0A8 /* NSString+NFAllocInit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+NFAllocInit.m"; path = "NFAllocInit/Categories/NSString+NFAllocInit.m"; sourceTree = "<group>"; };
+		F0FEBA5596E09271583F8D040E810E5E /* NFTimerTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFTimerTarget.h; path = NFAllocInit/NFTimerTarget.h; sourceTree = "<group>"; };
+		F3D4249FEF3D21159CA3727DD74A0C4B /* Pods-FancyButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FancyButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		F952D026FE597AA0CF41599D8EDFF037 /* UIImage+NFAllocInit_RoundedCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+NFAllocInit_RoundedCorner.m"; path = "NFAllocInit/Categories/UIImage+NFAllocInit_RoundedCorner.m"; sourceTree = "<group>"; };
+		FAF6AFB8E9C471F8CB9241678834A584 /* NFProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFProperty.h; path = NFAllocInit/NFProperty.h; sourceTree = "<group>"; };
+		FB11AF4F8B7C76336308B80FB095DE2E /* NSError+NFAllocInit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+NFAllocInit.h"; path = "NFAllocInit/Categories/NSError+NFAllocInit.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F09EB56AAD2BF34666B0859610B9666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E704EF4825E24FC390362E23E8E1B2DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB987CCE2EEF8155D0DD03C7960D6784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD3EA4B23063083D1E681A126C477C1 /* AudioToolbox.framework in Frameworks */,
+				F0A80466AEDF0D7E94C7154CFF96694A /* AVFoundation.framework in Frameworks */,
+				F577408D62C3ACB60B8826BFF06394F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD80A1E1974CE73C7A2B481D09A06FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83A52B0C8423FAD2BC6DD14F2883C92 /* Foundation.framework in Frameworks */,
+				E0090B088E1A11A95A5CC98523A5C7A6 /* NFAllocInit.framework in Frameworks */,
+				CA3E86A11B5A97C143B40B091D128CB4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D54168B5D489E411B036B8C87F59A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5363FE73AACF9341469D48EBB1900F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00788C41EEED12D6D9244EF27E30B4BB /* NFAllocInit */ = {
+			isa = PBXGroup;
+			children = (
+				01C7ECD979CE56445EEF977EE277AB18 /* NFAllocInit.h */,
+				EE8C832AA19ED7695C313272427C7893 /* NFAudioPlayer.h */,
+				B78A7D2F9A9AE0928BFC7A8256DEAEEB /* NFAudioPlayer.m */,
+				102A3BFEC915AB995B83B200FF05EBAC /* NFDateUtils.h */,
+				2E1A0BF7FF3D6FEDE6C3837BC0FB1E58 /* NFDateUtils.m */,
+				38AC6649D01F1A1101E15BFBD17018E2 /* NFDebugging.h */,
+				CE14A50E7DB0258B58E2CF735BA36FE4 /* NFDelegateSet.h */,
+				C3243AC201F8A0AD0FAF3DEE04A321E5 /* NFDelegateSet.m */,
+				C05CE5FE93ED87518379097052B52ADD /* NFDeviceUtils.h */,
+				B378C5194FFBB343521AD76670E93E14 /* NFDeviceUtils.m */,
+				235816D81E220A23A328056E4FBAE2FD /* NFNetworkActivityIndicator.h */,
+				4AC150E20B082684705F5ED44CD86C6C /* NFNetworkActivityIndicator.m */,
+				FAF6AFB8E9C471F8CB9241678834A584 /* NFProperty.h */,
+				D682460D7163F9B1C029DF7847922742 /* NFProperty.m */,
+				CB89DC32C2AFE72E99A993E9525DA669 /* NFResourceUtils.h */,
+				519C59584313AB505E705F2FFF45754C /* NFResourceUtils.m */,
+				F0FEBA5596E09271583F8D040E810E5E /* NFTimerTarget.h */,
+				A59A90A02FF4B0FFEB3926FE33B894F4 /* NFTimerTarget.m */,
+				4F15AF2AD55C72D49688E6FA482D1D6B /* NFViewUtils.h */,
+				31BB35259217FA60AB0E6492E4634041 /* NFViewUtils.m */,
+				18675F29E0EDF58E3919EE88D877C6FB /* NSArray+NFAllocInit.h */,
+				579093B08396C4F07D4BF63D829DC415 /* NSArray+NFAllocInit.m */,
+				E1EE79813378009B5DDD81F955A15B75 /* NSData+NFAllocInit.h */,
+				ECD52A5B8B8139B96AB9A445323CDC28 /* NSData+NFAllocInit.m */,
+				58D622D702CBD3FABAC94E492E79D9D6 /* NSDate+NFAllocInit.h */,
+				BACF370273A77B0F7438199BA0123A3F /* NSDate+NFAllocInit.m */,
+				FB11AF4F8B7C76336308B80FB095DE2E /* NSError+NFAllocInit.h */,
+				2E871A635BA9AFE058E3E42ADE680175 /* NSError+NFAllocInit.m */,
+				2A30E2956B86824ECF49382A04B7BF35 /* NSObject+NFAllocInit_Properties.h */,
+				A924EA2AD997D74FAB0D6CA9EF4BE7E7 /* NSObject+NFAllocInit_Properties.m */,
+				7A729286596E5CE8D1503B9F3D4E93F2 /* NSString+NFAllocInit.h */,
+				EF9DC6E87022EC09AEF270C99E24F0A8 /* NSString+NFAllocInit.m */,
+				8A190965538B22E34FDA4DC880B9FCC3 /* UIColor+NFAllocInit.h */,
+				98EAF8E882DC8C8680C7DC76AFD46F4E /* UIColor+NFAllocInit.m */,
+				7AC8660E56F151983D87097611F87B63 /* UIDevice+NFAllocInit.h */,
+				8C2E67EA00EF1E3917C5A12D1241FEA9 /* UIDevice+NFAllocInit.m */,
+				69983F47A1F122BACB96A4658C3FBF6B /* UIImage+NFAllocInit.h */,
+				3E39547E5CA123AD6E9D89AABB44C23F /* UIImage+NFAllocInit.m */,
+				DD8A253E77665CE39AECA26346BDE28F /* UIImage+NFAllocInit_Alpha.h */,
+				82ED6E06921F8429229DFBFCA516CE5F /* UIImage+NFAllocInit_Alpha.m */,
+				6B01CED3F2294EE09DAF41769916B380 /* UIImage+NFAllocInit_Orientation.h */,
+				920F8C7180235CFC93EFCA9C76622C50 /* UIImage+NFAllocInit_Orientation.m */,
+				B7F197B3E149E59FEBA5021BE394393A /* UIImage+NFAllocInit_Resize.h */,
+				59C825582557E946E73B1696FF9CBF01 /* UIImage+NFAllocInit_Resize.m */,
+				242F1B4C29B3246DF74C705520198453 /* UIImage+NFAllocInit_RoundedCorner.h */,
+				F952D026FE597AA0CF41599D8EDFF037 /* UIImage+NFAllocInit_RoundedCorner.m */,
+				5C213B49723B13C80A32CC3F65966B2A /* UIView+NFAllocInit.h */,
+				B8656FE0A56CD35A0C3B7A3E6B47F146 /* UIView+NFAllocInit.m */,
+				2E4258AE55FAB097468C734876FFA4DB /* UIView+NFAllocInit_FrameAdjustments.h */,
+				0196B0F5693093256BB906AD0567916B /* UIView+NFAllocInit_FrameAdjustments.m */,
+				2FA1308202136F6442576621858AB195 /* Support Files */,
+			);
+			name = NFAllocInit;
+			path = NFAllocInit;
+			sourceTree = "<group>";
+		};
+		2FA1308202136F6442576621858AB195 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D795D997CF3A5D7266E99CEDDB066BCD /* Info.plist */,
+				212AA2C4FC567B3D01656E2CB8004F47 /* NFAllocInit.modulemap */,
+				3C721CF1667D79649753F749108BFA10 /* NFAllocInit.xcconfig */,
+				6ECF335EC2880E6C2EF2DD04AF9CE4F3 /* NFAllocInit-dummy.m */,
+				48103D7DADF0FF5A2FD42F5ACBE94165 /* NFAllocInit-prefix.pch */,
+				BD385E4ACF2638E32EDB3CAC4C1A9F4C /* NFAllocInit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NFAllocInit";
+			sourceTree = "<group>";
+		};
+		3BF2767E7A76D8553EF3FA13D988DFF4 /* FancyButton */ = {
+			isa = PBXGroup;
+			children = (
+				D3ED45F7F5B2B0BA2716550C0A7D0923 /* FancyButton */,
+				4A48AE40F32572996233E0E56444544E /* Support Files */,
+			);
+			name = FancyButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		408CB5797E82CE72663587E384AFD545 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				07FFD2E148AB0F3CC8CF9B06EFFBA934 /* FancyButton.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A48AE40F32572996233E0E56444544E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				054158E9DF7EF7C60E167F18BADE9EB7 /* FancyButton.modulemap */,
+				AE6496EF2B8A13BA3855633706A7828F /* FancyButton.xcconfig */,
+				8A34C754D1EFF05D7C4A3773E62063D3 /* FancyButton-dummy.m */,
+				7B0571691113822C6EEE5837E0AE40EA /* FancyButton-prefix.pch */,
+				4B40CF54A632BE8EC9D007734A29FF5A /* FancyButton-umbrella.h */,
+				0F3EE63525E61DAF39034401B8BE967A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FancyButton";
+			sourceTree = "<group>";
+		};
+		4D7C30FA24F262EA75365DA2D3992CF6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				14920B36FA3A267C178059FDD4077B31 /* AudioToolbox.framework */,
+				1331903568F5C458518816F93128169E /* AVFoundation.framework */,
+				43E6CAC8FD81E01CD90B289F76E9FE91 /* Foundation.framework */,
+				53E42C1A09CB48F2E11577859C6562DD /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F37FA53A6999C53BAB939E509201A50 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				959DEE3C9601B81F5C02E547CC9342DA /* Pods-FancyButton_Example */,
+				FC5E7BC49F01B57C01B92C0D2C9EF128 /* Pods-FancyButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		74153940E0D556FAE3965CB4D96EB670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3881E2B64645F71433D45B9E71DDCF0F /* FancyButton.framework */,
+				1137AE130A73DCC85C77EE5CD9E56926 /* NFAllocInit.framework */,
+				A91A03C8EB962592FDDA595291F63F5A /* Pods_FancyButton_Example.framework */,
+				9F2DE78F8072498107DCDEAF3D1A352B /* Pods_FancyButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FF1D7C1D577AEC9593FF4C63760B6BDF /* Development Pods */,
+				CFACA2D65DF79A9B49B51A89FAD0E004 /* Frameworks */,
+				EF642B5F22B8DCB427B9F71F434DA0A0 /* Pods */,
+				74153940E0D556FAE3965CB4D96EB670 /* Products */,
+				5F37FA53A6999C53BAB939E509201A50 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		959DEE3C9601B81F5C02E547CC9342DA /* Pods-FancyButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				61FEB0D0F47DDA2C501154A547D4B0F3 /* Info.plist */,
+				8D864233E3000254A8AFBB315FF26F6B /* Pods-FancyButton_Example.modulemap */,
+				C0F2915A2F72B23D4C27CE830B3E3F14 /* Pods-FancyButton_Example-acknowledgements.markdown */,
+				DB77A2E6A33BF3EE2A2BA599E23F00AB /* Pods-FancyButton_Example-acknowledgements.plist */,
+				5A0FBBE7638B47BAF2716C1A98CE44B9 /* Pods-FancyButton_Example-dummy.m */,
+				B0DA2406F2FDFE39FF6970F2516AE4C3 /* Pods-FancyButton_Example-frameworks.sh */,
+				3FB1138D9F1A87768801F06EDBE87201 /* Pods-FancyButton_Example-resources.sh */,
+				F3D4249FEF3D21159CA3727DD74A0C4B /* Pods-FancyButton_Example-umbrella.h */,
+				360770D985B444F6C1F910D413A9ED81 /* Pods-FancyButton_Example.debug.xcconfig */,
+				C13E63F0D41390C17BC9138FC00449A8 /* Pods-FancyButton_Example.release.xcconfig */,
+			);
+			name = "Pods-FancyButton_Example";
+			path = "Target Support Files/Pods-FancyButton_Example";
+			sourceTree = "<group>";
+		};
+		CFACA2D65DF79A9B49B51A89FAD0E004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8668F8BF4F24986F42E2B7C9F17137E5 /* NFAllocInit.framework */,
+				4D7C30FA24F262EA75365DA2D3992CF6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3ED45F7F5B2B0BA2716550C0A7D0923 /* FancyButton */ = {
+			isa = PBXGroup;
+			children = (
+				408CB5797E82CE72663587E384AFD545 /* Classes */,
+			);
+			name = FancyButton;
+			path = FancyButton;
+			sourceTree = "<group>";
+		};
+		EF642B5F22B8DCB427B9F71F434DA0A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00788C41EEED12D6D9244EF27E30B4BB /* NFAllocInit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC5E7BC49F01B57C01B92C0D2C9EF128 /* Pods-FancyButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16784DCA85C36142AA285487E028F78B /* Info.plist */,
+				D401BC031FCCE190486E9750CF4406F5 /* Pods-FancyButton_Tests.modulemap */,
+				D6C7BC6380D5E138DF038220CD9011F4 /* Pods-FancyButton_Tests-acknowledgements.markdown */,
+				C0BEACCE6621D55894FFA0E46E332277 /* Pods-FancyButton_Tests-acknowledgements.plist */,
+				11DC9C8EDA9E8C2B718123FC457119E5 /* Pods-FancyButton_Tests-dummy.m */,
+				4BE8BE00A7C7F367995319E678CB5C15 /* Pods-FancyButton_Tests-frameworks.sh */,
+				0D92929CB7834FEC9AD6B56428AC0F27 /* Pods-FancyButton_Tests-resources.sh */,
+				E666AD3CF2BE8417175D68AE538E6C3C /* Pods-FancyButton_Tests-umbrella.h */,
+				045E62F2969F9714C7E17953A104F0E6 /* Pods-FancyButton_Tests.debug.xcconfig */,
+				5A0FA7C2A525356138DAE43C852A2441 /* Pods-FancyButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-FancyButton_Tests";
+			path = "Target Support Files/Pods-FancyButton_Tests";
+			sourceTree = "<group>";
+		};
+		FF1D7C1D577AEC9593FF4C63760B6BDF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BF2767E7A76D8553EF3FA13D988DFF4 /* FancyButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27710335AA4AFEB0DF4530D3E99270D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E29D3D1C4C37FE31C06128B5FDC875 /* Pods-FancyButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B94A4D451CF2B839C804446E76FA74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B13335832EEE1EDFCDDC35F49B5A56 /* Pods-FancyButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D8A6A29D58063CE73C95C9FE5CDDE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33CD535A12CD915C3D3FBA54613B98A /* NFAllocInit-umbrella.h in Headers */,
+				5CB3A8C9F9EF21DFD37FF5B2610904E3 /* NFAllocInit.h in Headers */,
+				9A5C4AB18C9123749C5D49B1CB985667 /* NFAudioPlayer.h in Headers */,
+				42754BA580E65D072B5EC8EC306484DF /* NFDateUtils.h in Headers */,
+				9A9AF7241468C30D6C3FEC9915E6C835 /* NFDebugging.h in Headers */,
+				745B32F50BE6E8940D0CA4A410F2E17D /* NFDelegateSet.h in Headers */,
+				1BE540688BA89D1BEEF68F9921F795F0 /* NFDeviceUtils.h in Headers */,
+				EF7B96E2E5077BC223AF92878726ADEE /* NFNetworkActivityIndicator.h in Headers */,
+				896DB61F2862936D86F3EC40CDDE5D80 /* NFProperty.h in Headers */,
+				FFD11965C7E4A8077474684C9F16FD35 /* NFResourceUtils.h in Headers */,
+				643E3C82BE690071FBD38C92D70C6E78 /* NFTimerTarget.h in Headers */,
+				AA151EAEE8A6E2202DD48066E963ED8D /* NFViewUtils.h in Headers */,
+				7A8A17C3BD6009CFA658001DB511DA4E /* NSArray+NFAllocInit.h in Headers */,
+				BEC477D289048BE34DA355FDD6DEF81C /* NSData+NFAllocInit.h in Headers */,
+				71DC38AAE2DDA2A120847CCE1912E2BE /* NSDate+NFAllocInit.h in Headers */,
+				4C552A081AE72F4050B4F733E7E2AF7C /* NSError+NFAllocInit.h in Headers */,
+				9D98FF111C1EFDF80D312F481B6F6824 /* NSObject+NFAllocInit_Properties.h in Headers */,
+				A550AB6BB95B391AA439EA1C99103C6C /* NSString+NFAllocInit.h in Headers */,
+				51ED93413D854491CCB2F054722A1E53 /* UIColor+NFAllocInit.h in Headers */,
+				553F50D1EEC709E1E3DC96DE583193F5 /* UIDevice+NFAllocInit.h in Headers */,
+				1D310B3F5E0182ECD18F551868CF59AC /* UIImage+NFAllocInit.h in Headers */,
+				309529203D82C7A82682C1E0110C0AEC /* UIImage+NFAllocInit_Alpha.h in Headers */,
+				BFA3A8C5D1210C28780C42247FE1CCBE /* UIImage+NFAllocInit_Orientation.h in Headers */,
+				DE486E835CC7702880C804FC9ED3A13B /* UIImage+NFAllocInit_Resize.h in Headers */,
+				16C57AC90DA9041495EC4AC86374C22F /* UIImage+NFAllocInit_RoundedCorner.h in Headers */,
+				2C4058B86C67EEFA75B4C6D636D94E71 /* UIView+NFAllocInit.h in Headers */,
+				2172D4BF2C2B302CC0F7041BE851408E /* UIView+NFAllocInit_FrameAdjustments.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C374A90B6B0F3E1D6323EB56B64F383E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85450C228036FE69E471E1818E496509 /* FancyButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B8529041934C4A50F0E6C613647C2D2 /* FancyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E751533449BF9B357B68B9C64DE28AE /* Build configuration list for PBXNativeTarget "FancyButton" */;
+			buildPhases = (
+				E9F12DE283F84899E3282F39118B7DA8 /* Sources */,
+				DD80A1E1974CE73C7A2B481D09A06FE3 /* Frameworks */,
+				C374A90B6B0F3E1D6323EB56B64F383E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87934BFE9527166C766985331FDF9250 /* PBXTargetDependency */,
+			);
+			name = FancyButton;
+			productName = FancyButton;
+			productReference = 3881E2B64645F71433D45B9E71DDCF0F /* FancyButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6BF2DC9285BB8FE9B2689B9CE2584D4D /* Pods-FancyButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5D739073A7AA9F5A26CEF45A2621B6 /* Build configuration list for PBXNativeTarget "Pods-FancyButton_Tests" */;
+			buildPhases = (
+				D6D058008969E24D10144DAE3430E97F /* Sources */,
+				1F09EB56AAD2BF34666B0859610B9666 /* Frameworks */,
+				82B94A4D451CF2B839C804446E76FA74 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FancyButton_Tests";
+			productName = "Pods-FancyButton_Tests";
+			productReference = 9F2DE78F8072498107DCDEAF3D1A352B /* Pods_FancyButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95C91A7B6264BD727682EDCD812DC581 /* NFAllocInit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9EB7DF6B9A2CA7627A79B844C79E3E /* Build configuration list for PBXNativeTarget "NFAllocInit" */;
+			buildPhases = (
+				5037A8D4EADACE7B99B4D876D548F4E6 /* Sources */,
+				CB987CCE2EEF8155D0DD03C7960D6784 /* Frameworks */,
+				B7D8A6A29D58063CE73C95C9FE5CDDE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFAllocInit;
+			productName = NFAllocInit;
+			productReference = 1137AE130A73DCC85C77EE5CD9E56926 /* NFAllocInit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DABDF41CBABC1A0A163DC930B9337F4C /* Pods-FancyButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E310B5A41F32C8CABDBD406F7EF91266 /* Build configuration list for PBXNativeTarget "Pods-FancyButton_Example" */;
+			buildPhases = (
+				49EA745A3269F37DCE3590DC565D904F /* Sources */,
+				E1D54168B5D489E411B036B8C87F59A0 /* Frameworks */,
+				27710335AA4AFEB0DF4530D3E99270D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9FA29BEF1114AEE6732A45A471A72F2 /* PBXTargetDependency */,
+				68EC75B95E7CE2788FDD4BEABE9A81A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-FancyButton_Example";
+			productName = "Pods-FancyButton_Example";
+			productReference = A91A03C8EB962592FDDA595291F63F5A /* Pods_FancyButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 74153940E0D556FAE3965CB4D96EB670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8529041934C4A50F0E6C613647C2D2 /* FancyButton */,
+				95C91A7B6264BD727682EDCD812DC581 /* NFAllocInit */,
+				DABDF41CBABC1A0A163DC930B9337F4C /* Pods-FancyButton_Example */,
+				6BF2DC9285BB8FE9B2689B9CE2584D4D /* Pods-FancyButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49EA745A3269F37DCE3590DC565D904F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1B985ECFEAC4EB7A1CD691A1E10D34 /* Pods-FancyButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037A8D4EADACE7B99B4D876D548F4E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8CA42C957068E6E4196772E0EDBBF9 /* NFAllocInit-dummy.m in Sources */,
+				339DE566EA9633B8AFE9A2A8C685CC17 /* NFAudioPlayer.m in Sources */,
+				38A3644F889787B2DF6E5B94B7075A41 /* NFDateUtils.m in Sources */,
+				C519F8B2A9B11D239A2C4F06AE5486C0 /* NFDelegateSet.m in Sources */,
+				A058BB1A38D94AE6BFE86D3AD13306EF /* NFDeviceUtils.m in Sources */,
+				2EB2AD4F08AD142CEADD5488D388873C /* NFNetworkActivityIndicator.m in Sources */,
+				E3A7655870C6176AD2A8A041810686E8 /* NFProperty.m in Sources */,
+				92ED9AD4FB6E790FDAE1D7F467624414 /* NFResourceUtils.m in Sources */,
+				C9254906438B9C17BB0889D66B650A69 /* NFTimerTarget.m in Sources */,
+				1269C80FF799ABDF1D0BB6544E1B1A4C /* NFViewUtils.m in Sources */,
+				175A2B01B6D15DED4EA00391E5CBD7C8 /* NSArray+NFAllocInit.m in Sources */,
+				CE2C11FA9FE0BF25FF4478D4015AC8C8 /* NSData+NFAllocInit.m in Sources */,
+				37FD0E22BE1B9616047577C6A915C9FF /* NSDate+NFAllocInit.m in Sources */,
+				5D98A8ED337AF4E09D39C10839B247C2 /* NSError+NFAllocInit.m in Sources */,
+				950B47C073BFEC8453A38D6E40BD5D2B /* NSObject+NFAllocInit_Properties.m in Sources */,
+				69721FCBD8B5E68C5FF49184BF84F920 /* NSString+NFAllocInit.m in Sources */,
+				DAF656120308F8E2481BEA61283574C8 /* UIColor+NFAllocInit.m in Sources */,
+				8E37CCA66627FE433449D27D602C7A42 /* UIDevice+NFAllocInit.m in Sources */,
+				9641E6B131B13D311E77FF74860939F4 /* UIImage+NFAllocInit.m in Sources */,
+				B635B66C130B6F962B73D4911F26FFCB /* UIImage+NFAllocInit_Alpha.m in Sources */,
+				CAC79953C8BF6868447B6F9486E7C1F7 /* UIImage+NFAllocInit_Orientation.m in Sources */,
+				AB30D5EFAA039B73C8F9996B6405415F /* UIImage+NFAllocInit_Resize.m in Sources */,
+				B794784D054D9583CCBB96CE0D9A10D9 /* UIImage+NFAllocInit_RoundedCorner.m in Sources */,
+				2CDF97B2CDB290F3B817567A04129BD7 /* UIView+NFAllocInit.m in Sources */,
+				359672D8AF49B06EC046C34A8CE7C0A0 /* UIView+NFAllocInit_FrameAdjustments.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D058008969E24D10144DAE3430E97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ABC772FAA76532C1CDABF007E9E859 /* Pods-FancyButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F12DE283F84899E3282F39118B7DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9249ECFF5612ECC5532545F83323F /* FancyButton-dummy.m in Sources */,
+				A56E8AD1A949343E5D9D6592A15414A0 /* FancyButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68EC75B95E7CE2788FDD4BEABE9A81A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFAllocInit;
+			target = 95C91A7B6264BD727682EDCD812DC581 /* NFAllocInit */;
+			targetProxy = EDE288F00EC66071646C535B613CDD3A /* PBXContainerItemProxy */;
+		};
+		87934BFE9527166C766985331FDF9250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFAllocInit;
+			target = 95C91A7B6264BD727682EDCD812DC581 /* NFAllocInit */;
+			targetProxy = 2917AF1AECCDF1ED3907A43970573590 /* PBXContainerItemProxy */;
+		};
+		F9FA29BEF1114AEE6732A45A471A72F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FancyButton;
+			target = 6B8529041934C4A50F0E6C613647C2D2 /* FancyButton */;
+			targetProxy = 5672D5B57C34E1D478225490093C068C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3DFF16347DD51CE4B07D7AC13F229BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13E63F0D41390C17BC9138FC00449A8 /* Pods-FancyButton_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FancyButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FancyButton_Example/Pods-FancyButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FancyButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94835F25D81D096FA16C9471A87C4864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C721CF1667D79649753F749108BFA10 /* NFAllocInit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NFAllocInit/NFAllocInit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFAllocInit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFAllocInit/NFAllocInit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NFAllocInit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C948A2FAE59096E7A6F2B79A4349FD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6496EF2B8A13BA3855633706A7828F /* FancyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FancyButton/FancyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FancyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FancyButton/FancyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FancyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAA116B207B3925968561973BBC27C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360770D985B444F6C1F910D413A9ED81 /* Pods-FancyButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FancyButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FancyButton_Example/Pods-FancyButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FancyButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDCB9589A763338886F82CC10F1D47E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045E62F2969F9714C7E17953A104F0E6 /* Pods-FancyButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FancyButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FancyButton_Tests/Pods-FancyButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FancyButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5B94CDD18F23751AB9B52C7DD037298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6496EF2B8A13BA3855633706A7828F /* FancyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FancyButton/FancyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FancyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FancyButton/FancyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FancyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5DB8F3F30EF80387070EE476C8BEB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C721CF1667D79649753F749108BFA10 /* NFAllocInit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NFAllocInit/NFAllocInit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFAllocInit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFAllocInit/NFAllocInit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NFAllocInit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9301A1F613EFABBF4D82F3F95131F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0FA7C2A525356138DAE43C852A2441 /* Pods-FancyButton_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FancyButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FancyButton_Tests/Pods-FancyButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FancyButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5D739073A7AA9F5A26CEF45A2621B6 /* Build configuration list for PBXNativeTarget "Pods-FancyButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCB9589A763338886F82CC10F1D47E7 /* Debug */,
+				F9301A1F613EFABBF4D82F3F95131F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E751533449BF9B357B68B9C64DE28AE /* Build configuration list for PBXNativeTarget "FancyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C948A2FAE59096E7A6F2B79A4349FD76 /* Debug */,
+				E5B94CDD18F23751AB9B52C7DD037298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E310B5A41F32C8CABDBD406F7EF91266 /* Build configuration list for PBXNativeTarget "Pods-FancyButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA116B207B3925968561973BBC27C52 /* Debug */,
+				3DFF16347DD51CE4B07D7AC13F229BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9EB7DF6B9A2CA7627A79B844C79E3E /* Build configuration list for PBXNativeTarget "NFAllocInit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DB8F3F30EF80387070EE476C8BEB5F /* Debug */,
+				94835F25D81D096FA16C9471A87C4864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

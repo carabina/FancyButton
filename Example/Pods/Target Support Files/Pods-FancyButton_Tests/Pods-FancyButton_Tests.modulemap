@@ -1,0 +1,6 @@
+framework module Pods_FancyButton_Tests {
+  umbrella header "Pods-FancyButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

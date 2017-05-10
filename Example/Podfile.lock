@@ -1,0 +1,19 @@
+PODS:
+  - FancyButton (0.1.0):
+    - NFAllocInit
+  - NFAllocInit (1.1.1)
+
+DEPENDENCIES:
+  - FancyButton (from `../`)
+
+EXTERNAL SOURCES:
+  FancyButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FancyButton: ba2a610df843e7da0f04a5ccc995df38b566338a
+  NFAllocInit: b72c4d7ada11797bf150c92bea6a0f816bba10e8
+
+PODFILE CHECKSUM: 02f47b5f9143943415933f021ebf6251f358b7d4
+
+COCOAPODS: 1.2.1

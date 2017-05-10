@@ -1,0 +1,6 @@
+framework module NFAllocInit {
+  umbrella header "NFAllocInit-umbrella.h"
+
+  export *
+  module * { export * }
+}
